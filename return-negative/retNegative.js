@@ -1,6 +1,6 @@
 function makeNegative(num) {
     // Code?
-    return (num == 0) ? 0 : (num > 0) ? -num : num;
+    return (num > 0) ? -num : num;
 }
 
 console.log(makeNegative(1));  // return -1
